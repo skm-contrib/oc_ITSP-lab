@@ -1,66 +1,138 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<a name="readme-top"></a>
 
-## About Laravel
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/skm-contrib/oc_ITSP-lab">
+  </a>
 
-## Learning Laravel
+  <h3 align="center">Financial system app</h3>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  <p align="center">
+    Jumpstart for project
+    <br />
+    <a href="https://github.com/skm-contrib/oc_ITSP-lab"><strong>Explore the repo »</strong></a>
+    <br />
+  </p>
+</div>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<!-- TABLE OF CONTENTS -->
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<!-- ABOUT THE PROJECT -->
 
-## Laravel Sponsors
+## About The Project
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+[![Product Name Screen Shot][product-screenshot]](./resources/images/main.jpg)
 
-### Premium Partners
+The financial app is the best way to control your finances for several reasons.
+Here's why:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+-   Convenience: The app allows you to access your financial information anytime, anywhere, using your mobile device or computer. This convenience makes it easy to track your expenses, monitor your budget, and make informed financial decisions on the go.
 
-## Contributing
+-   Automation: The app automates many financial tasks, such as categorizing expenses, generating reports, and setting up recurring payments. This automation saves you time and effort, allowing you to focus on other important aspects of your life.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   Real-time Updates: The app provides real-time updates on your financial transactions, balances, and investments. This means you can stay up-to-date with your financial situation and make timely adjustments as needed.
 
-## Code of Conduct
+-   Budgeting and Goal Setting: The app offers robust budgeting and goal-setting features. You can set financial goals, create budgets, and track your progress towards achieving them. This helps you stay disciplined and motivated in managing your finances effectively.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+-   Security: The app prioritizes the security of your financial data. It uses encryption and other security measures to protect your personal and financial information from unauthorized access. This gives you peace of mind knowing that your data is safe.
 
-## Security Vulnerabilities
+Overall, the financial app provides a comprehensive and user-friendly platform for managing your finances efficiently. It combines convenience, automation, real-time updates, budgeting, goal setting, and security to offer you the best way to control your finances effectively..
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Built With
+
+This section list any major frameworks/libraries used build project.
+
+-   [![Vue][Vue.js]][Vue-url]
+-   [![Laravel][Laravel.com]][Laravel-url]
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running, follow these simple steps:
+
+1. Install Node.js and npm if you haven't already.
+2. Open a terminal or command prompt.
+3. Navigate to the project directory.
+4. Install the project dependencies by running the following command:
+    ```sh
+    npm install
+    ```
+5. Start the development server by running the following command:
+    ```sh
+    npm run dev
+    ```
+6. Open another terminal or command prompt.
+7. Navigate to the project directory.
+8. Start the PHP development server by running the following command:
+    ```sh
+    php artisan serve
+    ```
+9. Access the project in your web browser at http://localhost:8000.
+
+Note: Make sure you have PHP installed and added to your system's PATH environment variable for the `php` command to work.
+
+### Prerequisites
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+Here are some examples of how you can use the financial app:
+
+1. Tracking Expenses: Use the app to record and categorize your expenses. This will help you keep track of where your money is going and identify areas where you can cut back.
+
+2. Budgeting: Set up a budget in the app to allocate your income to different categories such as rent, groceries, and entertainment. The app will help you stay within your budget and provide insights into your spending habits.
+
+3. Goal Setting: Use the app to set financial goals such as saving for a vacation or paying off debt. The app will track your progress and provide recommendations on how to achieve your goals faster.
+
+4. Investment Monitoring: If you have investments, the app can provide real-time updates on their performance. You can track the value of your portfolio, view historical data, and make informed decisions about buying or selling.
+
+5. Bill Payments: Set up recurring payments in the app to automate your bill payments. This will ensure that you never miss a payment and avoid late fees.
+
+6. Financial Reports: Generate reports in the app to get a comprehensive view of your financial health. You can analyze your income, expenses, savings, and investments to make informed financial decisions.
+
+Remember, the financial app is designed to simplify your financial management and provide you with the tools you need to achieve your financial goals. Explore the app and discover how it can help you take control of your finances.
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+-   [x] Add Changelog
+-   [x] Add back to top links
+-   [ ] Add Additional Templates w/ Examples
+-   [ ] Add "components" document to easily copy & paste sections of the readme
+-   [ ] Multi-language Support
+    -   [ ] Chinese
+    -   [ ] Spanish
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Distributed under the MIT License.
