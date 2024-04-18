@@ -19,12 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -68,8 +62,9 @@ Overall, the financial app provides a comprehensive and user-friendly platform f
 
 This section list any major frameworks/libraries used build project.
 
--   [![Vue][Vue.js]][Vue-url]
--   [![Laravel][Laravel.com]][Laravel-url]
+-   Vue.js
+-   Laravel
+-   Inertia
 
 <!-- GETTING STARTED -->
 
