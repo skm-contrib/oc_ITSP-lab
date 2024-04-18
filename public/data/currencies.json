@@ -1,0 +1,22 @@
+{
+	"USD": {
+		"symbol": "$",
+		"name": "US Dollar",
+		"code": "USD"
+	},
+	"EUR": {
+		"symbol": "€",
+		"name": "Euro",
+		"code": "EUR"
+	},
+	"GBP": {
+		"symbol": "£",
+		"name": "British Pound Sterling",
+		"code": "GBP"
+	},
+	"UAH": {
+		"symbol": "₴",
+		"name": "Ukrainian Hryvnia",
+		"code": "UAH"
+	}
+}

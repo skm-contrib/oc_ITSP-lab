@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+}
+
+.my-select {
+  @apply bg-white  border-gray-100 hover:border-gray-300 duration-300 focus:border-gray-300 rounded-full focus:ring-0 border-2 focus:border-2 cursor-pointer outline-none focus:outline-none;
+}
+
+.base-btn-colored {
+  @apply rounded-full w-24 text-center px-4 py-2 bg-[#e0644a] text-white font-semibold text-sm hover:bg-[#c95a42] duration-300 cursor-pointer outline-none focus:outline-none;
+}
+
+.base-btn {
+  @apply rounded-full w-24 text-center px-4 py-2 bg-gray-100 text-stone-500 font-semibold text-sm  hover:bg-gray-200 duration-300 cursor-pointer outline-none focus:outline-none;
+}
+
+.base-btn-white {
+  @apply rounded-full w-full text-center px-4 py-2  bg-white border-2 text-2xl text-stone-500 font-semibold  hover:bg-gray-100 duration-300 cursor-pointer outline-none focus:outline-none;
+}
+
+.custom-select-container {
+  @apply absolute z-10 mt-1 w-full bg-white border-2 rounded-2xl border-gray-200 shadow-lg cursor-pointer;
+}
+
+.my-input {
+  @apply bg-transparent border-gray-100 hover:border-gray-200 duration-300 focus:border-gray-200 rounded-full focus:ring-0 border-2 focus:border-2 cursor-text outline-none focus:outline-none;
+}
