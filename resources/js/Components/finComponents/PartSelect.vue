@@ -44,14 +44,20 @@
 <script>
 export default {
     props: {
+        // @PropDescription
+        // Ідентифікатори гаманців.
         wallets: {
             type: Array,
             required: true,
         },
+        // @PropDescription
+        // Обраний гаманець.
         selectWallet: {
             type: Function,
             required: true,
         },
+        // @PropDescription
+        // Вибрати всі гаманці.
         selectAllWallets: {
             type: Function,
             required: true,

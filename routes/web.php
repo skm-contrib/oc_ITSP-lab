@@ -7,6 +7,7 @@ use Inertia\Inertia;
 
 use App\Http\Controllers\Api\V1\TransactionController;
 use App\Http\Controllers\Api\V1\WalletController;
+use App\Http\Controllers\Api\V1\FrontDocumentation;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -60,5 +61,6 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+Route::get('/frontdoc', [FrontDocumentation::class, 'index']);
 
 require __DIR__.'/auth.php';

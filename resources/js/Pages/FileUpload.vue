@@ -60,31 +60,67 @@
         </form>
     </div>
 </template>
-
 <script>
+// @ComponentDescription
+// Головний компонент для управління гаманцями та обробки зображень.
 import { useForm } from "@inertiajs/vue3";
 import { Link } from "@inertiajs/vue3";
 import { VueScrollPicker } from "vue-scroll-picker";
+
 export default {
     components: {
         VueScrollPicker,
         Link,
     },
-    props: ["text", "category", "originalImage", "processedImage"],
+    // @PropDescription
+    // Текст для конвертації, отриманий з зображення.
+    props: {
+        // @PropDescription
+        // Текст в файлі документу.
+        text: {
+            type: String,
+            default: "",
+        }
+        // @PropDescription
+        // Категорія документа.
+        category: {
+            type: String,
+            default: "",
+        },
+        // @PropDescription
+        // Шлях до оригінального зображення.
+        originalImage: {
+            type: String,
+            default: "",
+
+        },
+        // @PropDescription
+        // Шлях до обробленого зображення.
+        processedImage: {
+            type: String,
+            default: "",
+
+        },
+    },
     data() {
-        return {};
+        return {
+            // @DataDescription
+            // Помилки, які можуть виникнути під час обробки файлів.
+            error: null,
+        };
     },
     methods: {
+        // @MethodDescription
+        // Обробка зміни файлу та відправка на сервер для конвертації.
+        // @param event - подія вибору файлу
         async handleFileChange(event) {
             try {
                 console.log("handleFileChange");
                 const file = event.target.files[0];
-
                 if (file) {
                     const form = useForm({
                         file: file,
                     });
-
                     try {
                         await form.post("convert-file-to-text");
                     } catch (error) {
@@ -102,6 +138,7 @@ export default {
     },
 };
 </script>
+
 <script setup>
 import { onMounted, ref, watch, defineProps } from "vue";
 const props = defineProps([

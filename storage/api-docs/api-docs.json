@@ -1,0 +1,42 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Doc api",
+        "version": "0.2.0"
+    },
+    "paths": {
+        "/api/": {},
+        "/api/v1/categories/user/{user_id}": {
+            "get": {
+                "tags": [
+                    "Categories"
+                ],
+                "summary": "Get expense categories by user ID",
+                "description": "Returns a list of expense categories by user ID",
+                "operationId": "getCategoriesByUserId",
+                "parameters": [
+                    {
+                        "name": "user_id",
+                        "in": "path",
+                        "description": "User ID",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

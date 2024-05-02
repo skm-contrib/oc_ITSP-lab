@@ -113,10 +113,15 @@ export default {
     components: {
         TransactionCreate,
     },
+    // @PropDescription
+    // Ідентифікатор гаманця для подальшого отримання його транзакцій.
     props: {
+        // @PropDescription
+        // Ідентифікатор гаманця для подальшого отримання його транзакцій.
         wallet_id: {
             type: Number,
             required: true,
+            default: "0",
         },
     },
     methods: {

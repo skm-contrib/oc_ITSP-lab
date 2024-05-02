@@ -22,7 +22,10 @@
     "dependencies": {
         "@inertiajs/inertia-vue3": "^0.6.0",
         "@vitejs/plugin-vue": "^4.4.0",
+        "@vuese/cli": "^2.14.3",
         "jimp": "^0.22.10",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.0",
         "vue": "^3.2.36",
         "vue-ios-datepicker": "^1.0.0",
         "vue-router": "^4.3.0",

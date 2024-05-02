@@ -38,9 +38,12 @@
 <script>
 export default {
     props: {
+        // @PropDescription
+        // Всі категорії для селекту.
         categories: {
             type: Array,
             required: true,
+            default: [],
         },
     },
     data() {
